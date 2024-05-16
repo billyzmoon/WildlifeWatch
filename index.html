@@ -4,37 +4,73 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wildlife watch</title>
-  <link rel="icon" type="image/x-icon" href="src/bear.ico">
+  <link rel="icon" type="image/x-icon" href="src/favicon.ico">
   <link rel="stylesheet" href="css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css"/>
 </head>
 <body>
-  <header>
-      <button>История</button>
-      <button>Виды</button>
-      <button>Заповедники</button>
-  </header>
+  <!--<header>
+  </header>-->
+    <nav>
+      <ul>
+        <li>
+          <a href="#" class="logo">
+            <img src="src/favicon.ico" alt="">
+            <span class="nav-item">Wildlife Watch</span>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <i class="fas fa-home"></i>
+            <span class="nav-item">Главная</span>
+          </a></li>
+        <li>
+          <a href="#">
+            <i class="fas fa-history"></i>
+            <span class="nav-item">История</span>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-book"></i>
+          <span class="nav-item">Красная книга</span>
+        </a></li>
+        <li><a href="#">
+            <i class="fas fa-map-marker"></i>
+            <span class="nav-item">Заповедники</span>
+        </a></li>
+        <li><a href="info.html">
+            <i class="fas fa-info-circle"></i>
+            <span class="nav-item">О сайте</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-inbox"></i>
+          <span class="nav-item">Обратная связь</span>
+        </a></li>
+        <li><a href="https://github.com/billyzmoon">
+          <i class="fa-brands fa-github"></i>
+          <span class="nav-item">github</span>
+        </a></li>
+      </ul>
+    </nav>
   <main>
-    <img src="src/fullmap.png" alt="Карта Дальнего Востока">
+    <div id="map-container">
+      <img id="main-map-img" src="src/main-map.svg" alt="Карта Дальнего Востока">
+      <map name="main-map">
+        <area shape="poly">
+        <area shape="poly">
+      </map>
+    </div>
     
   </main>
-  <nav>
-    <ul>
-      <li><a href="html/PrimorskyKrai.html">Приморский край</li>
-      <li><a href="html/KhabarovskyKrai.html">Хабаровский край</a></li>
-      <li><a href="html/ChukotskiiAO.html">Чукотский АО</a></li>
-      <li><a href="html/Yakutia.html">Республика Саха (Якутия)</a></li>
-      <li><a href="html/EvreiskiiAO.html">Еврейский АО</a></li>
-    </ul>
-  </nav>
-  <footer>
-      <button class="footer" href="https://github.com/billyzmoon">github</button>
+  <!--<footer>
+      <a href="https://github.com/billyzmoon"><button class="footer">github</button></a>
       <button class="footer">О сайте</button>
       <button class="footer">Обратная связь</button>
-      <span class="footer">v0.0.2</span>
+      <span class="footer">v0.0.3</span>
       <span class="footer">Андрусенко А.</span>
-  </footer>
+  </footer>-->
 </body>
 </html>
